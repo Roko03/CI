@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-mobile">
+            <div class="m-pre-header">
+                <div class="link">
+                    <p>Imate pitanja? <i class="far fa-envelope"></i> <a href="#">info@ci-sdz.hr</a></p>
+                </div>
+                <a href="" class="join">Prijava</a>
+            </div>
+            <div class="m-header">
+                <a class="logo" href="#">
+                    <img src="img/logoCentarIzvrsnosti.svg" alt="Logo">
+                </a>
+                <a class="burger" onclick="sideMenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </a>
+            </div>
+        </div>
+        <div class="nav-desktop">
+            <div class="d-pre-header">
+                <div class="link">
+                    <p>Imate pitanja? <i class="far fa-envelope"></i> <a href="#">info@ci-sdz.hr</a></p>
+                </div>
+                <a href="" class="join">Prijava</a>
+            </div>
+            <div class="d-header">
+                <a class="logo" href="#">
+                    <img src="img/logoCentarIzvrsnosti.svg" alt="Logo">
+                </a>
+                <ul class="menu-desktop">
+                    <li><a href="">Naslovna</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">Centri izvrsnosti</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">O nama</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">Novosti</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">Edukacije</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">Konferencije</a></li>
+                    <li class="slash">/</li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+                <div class="search-lang">
+                    <a class="button"><i class="fas fa-search"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar" id="sidemenu">
+        <div class="logo">
+            <img src="img/logoSideBar.svg" alt="logo">
+        </div>
+        <a onclick="closeSideMenu()" class="close-btn"><i class="fas fa-times"></i></a>
+        <ul>
+            <li><a href="">Naslovna</a></li>
+            <li><a href="">Centri izvrsnosti</a></li>
+            <li><a href="">O nama</a></li>
+            <li><a href="">Novosti</a></li>
+            <li><a href="">Edukacije</a></li>
+            <li><a href="">Konferencije</a></li>
+            <li><a href="">Kontakt</a></li>
+        </ul>
+
+        <div class="search-box">
+            <form action="">
+                <input type="text" placeholder="Pretraži">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <section class="background">
+        <h1>Edukacije</h1>
+        <div class="box">
+            <h2>Naslovna</h2>/ <h3>Edukacije</h3>
+        </div>
+    </section>
+
+    <main>
+        <div class="main-mobile">
+            <div class="content">
+                <section class="educations">
+                    <h1 class="head">Spremni na nove izazove?!</h1>
+                    <div class="blue">
+                        <img src="img/CI-SDZ-voditelji-projekata-1-768x432.png"
+                            alt="CI-SDZ-voditelji-projekata-1-768x432">
+                        <img src="img/najava-program-.png" alt="najava-program-">
+                    </div>
+                    <img src="img/CI-SDZ-future-class-.jpg" alt="CI-SDZ-future-class-">
+                    <h1 class="foot">Program edukacije odgojno-obrazovnih djelatnika: «Nastavnik za nastavnika»</h1>
+                    <p><b>Predviđena područja edukacije</b> koja će se organizirati u drugom dijelu ove školske godine
+                        su:
+                    </p>
+                    <ol type="1">
+                        <li>Određivanje, praćenje i vrednovanje ishoda učenja</li>
+                        <li>Upotreba informacijsko-komunikacijske tehnologije u učenju i poučavanju</li>
+                        <li>Integracija suvremenih metoda učenja i poučavanja u obrazovni proces (aktivne metode učenja
+                            i
+                            poučavanja, mentorski rad,
+                            projektna nastava…)</li>
+                        <li>Rad s darovitim učenicima</li>
+                        <li>Razvoj poduzetničkih kompetencija</li>
+                        <li>Ostalo</li>
+                    </ol>
+                    <h1 class="head">školska godina 2020./21.</h1>
+                </section>
+
+                <section class="links">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Može li Google generacija učiti bez Googla? (POPUNJENO!)
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><strong>PODRUČJE: Karakteristike učenja današnje generacije</strong></p>
+                                    <p><span>PREDAVAČ: </span>Ružica Vorgić Krvavica, Obrtna tehnička škola</p>
+                                    <p><span>VRIJEME: 18.45 – 20.15</span></p>
+                                    <p><span>LINK ZA PRIJAVU:</span><a rel="noopener noreferrer"
+                                            href="https://forms.gle/yjgcwc8Vcm9FboFD7" target="_blank">PRIJAVA</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside>
+                <div class="boxs">
+                    <p>Jedinstveno
+                        na tržištu</p>
+                    <a href=""><img src="img/logo-gb.jpeg" alt="logo-gb"></a>
+                    <a href="">Green Box</a>
+                </div>
+                <div class="boxs">
+                    <p>Platforma za učenje na daljinu</p>
+                    <a href=""><img src="img/logo-platforme.png" alt="logo-platforme"></a>
+                    <a href="">Edux</a>
+                </div>
+                <div class="boxs">
+                    <p>Prijava učenika za testiranje</p>
+                    <a href=""><img src="img/miaLogo.png" alt="miaLogo"></a>
+                    <a href="" class="button1">Kutak za roditelje</a>
+                    <a href="" class="button2">Arhiva novosti</a>
+                </div>
+                <div class="boxs">
+                    <h1>Facebook</h1>
+                    <div class="facebookOuter">
+                        <div class="facebookInner">
+                            <div class="fb-page ws-fb-like-box fb_loader fb_iframe_widget"
+                                data-href="https://www.facebook.com/cisdz.hr" data-tabs="timeline" data-width="300"
+                                data-height="450" data-small-header="yes" data-adapt-container-width="yes"
+                                data-hide-cover="no" data-show-facepile="yes" fb-xfbml-state="rendered"
+                                fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=250&amp;height=450&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcisdz.hr&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300">
+                                <span style="vertical-align: bottom; width: 250px; height: 450px;">
+                                    <iframe name="f2c8274e1290628" width="300px" height="450px"
+                                        data-testid="fb:page Facebook Social Plugin"
+                                        title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                        src="https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f25e43b55c%26domain%3Dci-sdz.hr%26origin%3Dhttps%253A%252F%252Fci-sdz.hr%252Ff91ea5bdc5b3a8%26relation%3Dparent.parent&amp;container_width=250&amp;height=450&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcisdz.hr&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300"
+                                        style="border: none; visibility: visible; width: 250px; height: 450px;"
+                                        class="">
+                                    </iframe>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxs">
+                    <img src="img/2_etsnlogo_fullcolor.png" alt="2_etsnlogo_fullcolor">
+                </div>
+
+            </aside>
+        </div>
+        <div class="main-desktop">
+            <aside class="side">
+                <div class="boxs">
+                    <p>Jedinstveno
+                        na tržištu</p>
+                    <a href=""><img src="img/logo-gb.jpeg" alt="logo-gb"></a>
+                    <a href="">Green Box</a>
+                </div>
+                <div class="boxs">
+                    <p>Platforma za učenje na daljinu</p>
+                    <a href=""><img src="img/logo-platforme.png" alt="logo-platforme"></a>
+                    <a href="">Edux</a>
+                </div>
+                <div class="boxs">
+                    <p>Prijava učenika za testiranje</p>
+                    <a href=""><img src="img/miaLogo.png" alt="miaLogo"></a>
+                    <a href="" class="button1">Kutak za roditelje</a>
+                    <a href="" class="button2">Arhiva novosti</a>
+                </div>
+            </aside>
+
+            <div class="content">
+                <section class="educations">
+                    <h1 class="head">Spremni na nove izazove?!</h1>
+                    <div class="blue">
+                        <img src="img/CI-SDZ-voditelji-projekata-1-768x432.png"
+                            alt="CI-SDZ-voditelji-projekata-1-768x432">
+                        <img src="img/najava-program-.png" alt="najava-program-">
+                    </div>
+                    <img src="img/CI-SDZ-future-class-.jpg" alt="CI-SDZ-future-class-">
+                    <h1 class="foot">Program edukacije odgojno-obrazovnih djelatnika: «Nastavnik za nastavnika»</h1>
+                    <p><b>Predviđena područja edukacije</b> koja će se organizirati u drugom dijelu ove školske godine
+                        su:
+                    </p>
+                    <ol type="1">
+                        <li>Određivanje, praćenje i vrednovanje ishoda učenja</li>
+                        <li>Upotreba informacijsko-komunikacijske tehnologije u učenju i poučavanju</li>
+                        <li>Integracija suvremenih metoda učenja i poučavanja u obrazovni proces (aktivne metode učenja
+                            i
+                            poučavanja, mentorski rad,
+                            projektna nastava…)</li>
+                        <li>Rad s darovitim učenicima</li>
+                        <li>Razvoj poduzetničkih kompetencija</li>
+                        <li>Ostalo</li>
+                    </ol>
+                    <h1 class="head">školska godina 2020./21.</h1>
+                </section>
+
+                <section class="links">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Može li Google generacija učiti bez Googla? (POPUNJENO!)
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><strong>PODRUČJE: Karakteristike učenja današnje generacije</strong></p>
+                                    <p><span>PREDAVAČ: </span>Ružica Vorgić Krvavica, Obrtna tehnička škola</p>
+                                    <p><span>VRIJEME: 18.45 – 20.15</span></p>
+                                    <p><span>LINK ZA PRIJAVU:</span><a rel="noopener noreferrer"
+                                            href="https://forms.gle/yjgcwc8Vcm9FboFD7" target="_blank">PRIJAVA</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="side">
+                <div class="boxs">
+                    <h1>Facebook</h1>
+                    <div class="facebookOuter">
+                        <div class="facebookInner">
+                            <div class="fb-page ws-fb-like-box fb_loader fb_iframe_widget"
+                                data-href="https://www.facebook.com/cisdz.hr" data-tabs="timeline" data-width="300"
+                                data-height="450" data-small-header="yes" data-adapt-container-width="yes"
+                                data-hide-cover="no" data-show-facepile="yes" fb-xfbml-state="rendered"
+                                fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=250&amp;height=450&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcisdz.hr&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300">
+                                <span style="vertical-align: bottom; width: 250px; height: 450px;">
+                                    <iframe name="f2c8274e1290628" width="300px" height="450px"
+                                        data-testid="fb:page Facebook Social Plugin"
+                                        title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                        src="https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f25e43b55c%26domain%3Dci-sdz.hr%26origin%3Dhttps%253A%252F%252Fci-sdz.hr%252Ff91ea5bdc5b3a8%26relation%3Dparent.parent&amp;container_width=250&amp;height=450&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcisdz.hr&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp;width=300"
+                                        style="border: none; visibility: visible; width: 250px; height: 450px;"
+                                        class="">
+                                    </iframe>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxs">
+                    <img src="img/2_etsnlogo_fullcolor.png" alt="2_etsnlogo_fullcolor">
+                </div>
+
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1>Centri izvrsnosti</h1>
+        <div class="footer-grid">
+            <div class="link">
+                <ul>
+                    <a href="" class="button" style="background-color: #2facda;color: #fff;"><i
+                            class="fas fa-calculator"></i>Matematika</a>
+                    <a href="" class="button" style="background-color: #808184;color: #fff;"><i
+                            class="fas fa-desktop"></i>Informatika</a>
+                    <a href="" class="button" style="background-color: #a09ece;color: #fff;"><i
+                            class="far fa-lightbulb"></i>Nove
+                        tehnologije</a>
+                    <a href="" class="button" style="background-color: #fcff00;color: #424242;"><i
+                            class="fab fa-pagelines"></i>Prirodoslovlje</a>
+                    <a href="" class="button" style="background-color: #fa2f91;color: #fff;"><i
+                            class="fas fa-hand-holding-usd"></i>Poduzetništvo</a>
+                    <a href="" class="button" style="background-color: #21af4e;color: #fff;"><i
+                            class="far fa-arrow-alt-circle-up"></i>Baština</a>
+                </ul>
+            </div>
+
+            <div class="pictures">
+                <div class="pic1">
+                    <img src="img/eu-loga.png" alt="eu-loga">
+                </div>
+                <div class="pic2">
+                    <img src="img/sdzNEGATIV1-260x115-1.png" alt="sdzNEGATIV1-260x115-1">
+                </div>
+                <div class="pic3">
+                    <img src="img/sdz_logo-boja2-210x300-1.png" alt="sdz_logo-boja2-210x300-1">
+                </div>
+            </div>
+
+            <div class="fb">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcisdz.hr%2F&amp;tabs&amp;height=154&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
+                    width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowtransparency="true" allow="encrypted-media">
+                </iframe>
+            </div>
+        </div>
+    </footer>
+
+    <section class="sub-footer">
+        <p>© 2021 Centar Izvrsnosti SDŽ</p>
+    </section>
+
+
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
